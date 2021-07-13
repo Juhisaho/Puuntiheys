@@ -1,6 +1,5 @@
 async function removeProduct(id) {
 		
-		// let response = await fetch(`/niilespuuntiheys2/database?id=${id}`, { method: "DELETE" });
 		let response = await fetch("/juhisbalsa/database?id=" + id , { method: "DELETE"});
 		
 		console.log(response.status);
